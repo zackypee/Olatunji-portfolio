@@ -4,9 +4,9 @@ import aboutImg from "../assets/profile-img.jpeg"
 
 function About(){
     const skills = [
-        { name: "HTML & CSS", level: 80 },
-        { name: "JavaScript", level: 70 },
-        { name: "React JS", level: 60 },
+        { name: "HTML & CSS", level: 95 },
+        { name: "JavaScript", level: 90 },
+        { name: "React JS", level: 70 },
         { name: "Tailwind", level: 80 }
     ];
 

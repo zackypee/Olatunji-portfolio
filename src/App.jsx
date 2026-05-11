@@ -1,27 +1,4 @@
-// // import './App.css'
 
-// import Contact from "./component/Contact"
-// import About from "./component/About"
-// import NavSection from "./component/NavSection"
-// import Profile from "./component/Profile"
-// import Footer from "./component/Footer"
-
-
-// function App() {
- 
-
-//   return (
-//     <div>
-//       <NavSection />
-//       <Profile />
-//       <About />
-//       <Contact /> 
-//       <Footer />
-//     </div>
-//   )
-// }
-
-// export default App
 
 import React from 'react'
 import { DarkModeProvider } from "./components/DarkModeContext";
@@ -30,6 +7,8 @@ import Profile from "./components/Profile";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -39,6 +18,8 @@ function App() {
         <main>
           <Profile />
           <About />
+          <Experience />
+          <Projects/>
           <Contact />
         </main>
         <Footer />
