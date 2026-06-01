@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import truemindsImg from "../assets/truemind-page.png"
 
 // 👇 Import your project screenshot images here
-// import truemindsImg from "../assets/projects/trueminds.png";
+// import  from "../assets/projects/trueminds.png";
 // import lonasFintechImg from "../assets/projects/lonas-fintech.png";
 // import feelathomeImg from "../assets/projects/feelathome.png";
 
@@ -12,8 +13,8 @@ const projects = [
     description:
       "A specialized Learning Management System (LMS) designed for TrueMinds Team Hotel. It serves as a dedicated digital hub for employee training, onboarding, and professional development. Built as a collaborative team project with a fully responsive React frontend and robust backend integration.",
     tech: ["React.js", "Tailwind CSS", "JavaScript", "Node.js"],
-    image: null, // replace with: truemindsImg
-    demo: "https://your-trueminds-link.com",
+    image: truemindsImg,
+    demo: "https://trueminds-lms-teamhotel-tqmd.vercel.app/",
   },
   {
     title: "Lonas Fintech",
