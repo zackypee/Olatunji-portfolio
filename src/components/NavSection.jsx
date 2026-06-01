@@ -13,6 +13,7 @@ function NavSection(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeLink, setActiveLink] = useState('#home');
     const { isDark, toggleDarkMode } = useDarkMode();
+    console.log("isDark:", isDark);
 
     return(
         <nav className="fixed top-0 left-0 right-0 bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm border-b border-gray-100 dark:border-gray-800 shadow-sm z-50 transition-colors duration-300">
@@ -29,9 +30,9 @@ function NavSection(){
                   aria-label="Toggle dark mode"
                 >
                   {isDark ? (
-                    <HiSun className="size-5 text-yellow-400" />
+                    <HiSun size={20} className="text-yellow-400" />
                   ) : (
-                    <HiMoon className="size-5 text-gray-600" />
+                    <HiMoon size={20} className="text-gray-600" />
                   )}
                 </button>
                 <button 
@@ -39,9 +40,9 @@ function NavSection(){
                   className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-300"
                 >
                   {isMenuOpen ? (
-                    <HiX className="size-6 text-gray-700 dark:text-gray-300" />
+                    <HiX size={24} className="text-gray-700 dark:text-gray-300" />
                   ) : (
-                    <HiMenu className="size-6 text-gray-700 dark:text-gray-300" />
+                    <HiMenu size={24} className="text-gray-700 dark:text-gray-300" />
                   )}
                 </button>
               </div>
@@ -67,9 +68,9 @@ function NavSection(){
                   aria-label="Toggle dark mode"
                 >
                   {isDark ? (
-                    <HiSun className="size-5 text-yellow-400" />
+                    <HiSun size={20} className="text-yellow-400" />
                   ) : (
-                    <HiMoon className="size-5 text-gray-600" />
+                    <HiMoon size={20} className="text-gray-600" />
                   )}
                 </button>
                 <button className="px-6 py-2.5 bg-blue-600 dark:bg-blue-500 text-white hover:bg-blue-700 dark:hover:bg-blue-600 rounded-lg cursor-pointer text-sm transition-all duration-300 hover:shadow-lg hover:scale-105">
