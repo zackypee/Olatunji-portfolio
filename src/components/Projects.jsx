@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import truemindsImg from "../assets/truemind-page.png"
+import chuksKitchenImg from "../assets/chuks-kitchen.png"
+import movieAppImg from "../assets/movie-app.png"
 
 // 👇 Import your project screenshot images here
 // import  from "../assets/projects/trueminds.png";
@@ -17,20 +19,20 @@ const projects = [
     demo: "https://trueminds-lms-teamhotel-tqmd.vercel.app/",
   },
   {
-    title: "Lonas Fintech",
+    title: "Chuks Kitchen",
     description:
       "A high-performance Investment & Loan Calculator designed to bring transparency to digital lending. Recognizing that financial clarity is key to user trust, this platform features synchronized calculators, real-time feedback, and a clean dashboard built with accessibility in mind.",
     tech: ["React.js", "Tailwind CSS", "JavaScript"],
-    image: null, // replace with: lonasFintechImg
-    demo: "https://your-lonas-link.com",
+    image: chuksKitchenImg,
+    demo: "chuks-kitchen-v8ef.vercel.app/",
   },
   {
-    title: "Feelathome",
+    title: "Movie App",
     description:
       "A full-featured, user-centric real estate web application connecting Landlords, Agents, and Tenants. This platform allows property owners and agents to effortlessly list and manage properties for rent or sale, while tenants can search, filter, and explore listings with ease.",
     tech: ["React.js", "Tailwind CSS", "JavaScript"],
-    image: null, // replace with: feelathomeImg
-    demo: "https://your-feelathome-link.com",
+    image: movieAppImg,
+    demo: "https://movie-app-ten-ebon.vercel.app/",
   },
 ];
 

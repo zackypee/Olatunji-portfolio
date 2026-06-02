@@ -6,7 +6,10 @@ function NavSection(){
     const navLinks = [
         {href: "#home", label: "Home"},
         {href: "#about", label: "About Me"},
+        {href: "#skills", label: "Skills"},
         {href: "#experience", label: "Experience"},
+        {href: "#projects", label: "Portfolio"},
+        {href: "#certifications", label: "Certifications"},
         {href: "#contact", label: "Contact"}
     ];
 

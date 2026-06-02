@@ -4,9 +4,9 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 function Footer(){
     const socialLinks = [
-        { icon: FaLinkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
+        { icon: FaLinkedin, href: "https://linkedin.com/in/peter-olatunji-46a880278", label: "LinkedIn" },
         { icon: FaTwitter, href: "https://x.com/pheeta8", label: "Twitter" },
-        { icon: FaGithub, href: "https://github.com/yourusername", label: "GitHub" }
+        { icon: FaGithub, href: "https://github.com/zackypee", label: "GitHub" }
     ];
 
     return(

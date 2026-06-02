@@ -10,9 +10,9 @@ const certifications = [
     role: "Frontend Developer",
     dateIssued: "Nov 30, 2025",
     credentialId: "EBC-CERT-2025-FE",
-    companySite: "https://engineerbasecamp.com",
+    companySite: "https://www.linkedin.com/company/the-engineer-network",
     pdfUrl: null, // replace with: cert1Img or a PDF URL
-    image: null,  // replace with: cert1Img
+    image: cert1Img,
   },
   {
     tag: "INTERNSHIP",
@@ -20,10 +20,10 @@ const certifications = [
     role: "Frontend Developer",
     dateIssued: "May 2026",
     credentialId: "INT-CERT-CAR...",
-    companySite: "https://trueminds.com",
-    pdfUrl: null, // replace with: cert2Img or a PDF URL
-    image: null,  // replace with: cert2Img
-  },
+    companySite: "https://truemindsltd.com/",
+    pdfUrl: `https:drive.google.com/file/d/1AEQWNPOblYvTV_SWe74iAJVF7UdBgqt3/view?usp=sharing`,
+    image: cert2Img,
+  }
 ];
 
 const containerVariants = {
