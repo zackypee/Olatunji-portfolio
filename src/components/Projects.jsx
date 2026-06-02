@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import truemindsImg from "../assets/truemind-page.png"
 import chuksKitchenImg from "../assets/chuks-kitchen.png"
 import movieAppImg from "../assets/movie-app.png"
+import ecommerceImg from "../assets/e-commerce.png"
+
+
 
 // 👇 Import your project screenshot images here
 // import  from "../assets/projects/trueminds.png";
@@ -32,6 +35,14 @@ const projects = [
       "A full-featured, user-centric real estate web application connecting Landlords, Agents, and Tenants. This platform allows property owners and agents to effortlessly list and manage properties for rent or sale, while tenants can search, filter, and explore listings with ease.",
     tech: ["React.js", "Tailwind CSS", "JavaScript"],
     image: movieAppImg,
+    demo: "https://movie-app-ten-ebon.vercel.app/",
+  },
+  {
+    title: "E-commerce",
+    description:
+      "A full-featured, user-centric real estate web application connecting Landlords, Agents, and Tenants. This platform allows property owners and agents to effortlessly list and manage properties for rent or sale, while tenants can search, filter, and explore listings with ease.",
+    tech: ["React.js", "Tailwind CSS", "JavaScript"],
+    image: ecommerceImg,
     demo: "https://movie-app-ten-ebon.vercel.app/",
   },
 ];
