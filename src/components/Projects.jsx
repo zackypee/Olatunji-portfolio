@@ -5,13 +5,6 @@ import chuksKitchenImg from "../assets/chuks-kitchen.png"
 import movieAppImg from "../assets/movie-app.png"
 import ecommerceImg from "../assets/e-commerce.png"
 
-
-
-// 👇 Import your project screenshot images here
-// import  from "../assets/projects/trueminds.png";
-// import lonasFintechImg from "../assets/projects/lonas-fintech.png";
-// import feelathomeImg from "../assets/projects/feelathome.png";
-
 const projects = [
   {
     title: "Trueminds Learning Management System",
